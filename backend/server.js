@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB Configuration
-const MONGO_URI = "mongodb+srv://aashishashu712:C2qrhzQcsiLaRofx@cluster0.v7sxbrj.mongodb.net/resumebuilder";
+const MONGO_URI = "mongodb+srv://aashish712:C2qrhzQcsiLaRofx@cluster0.v7sxbrj.mongodb.net/resumebuilder";
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
