@@ -1,0 +1,58 @@
+{
+  "name": "resume-builder-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "@react-pdf/renderer": "^3.4.4",
+    "@tailwindcss/forms": "^0.5.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.1",
+    "jspdf": "^2.5.1",
+    "react": "^18.3.1",
+    "react-cv": "^1.6.0",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.51.5",
+    "react-resume": "^0.0.11",
+    "react-resume-plugins": "^0.0.10",
+    "react-resume-themes": "^0.0.7",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "react-to-print": "^2.15.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

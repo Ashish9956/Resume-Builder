@@ -1,0 +1,73 @@
+/* Resumet.css */
+
+.resume {
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure buttons are positioned relative to the resume */
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 5px;
+}
+
+.profile,
+.experience,
+.education,
+.skills {
+  margin-bottom: 30px;
+}
+
+.experience-item,
+.education-item {
+  margin-bottom: 15px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.resume-buttons {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;gap: 0.5rem;
+
+  flex-direction: row;
+}
+
+.resume-buttons button {
+  margin-bottom: 10px;
+}
+
+.resume-buttons .MuiButtonBase-root {
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.resume-buttons .MuiButtonBase-root:hover {
+  background-color: #0056b3;
+}
+
+.resume-buttons svg {
+  font-size: 24px;
+}
